@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zadanie nr 3</title>
+    <title>Zadanie nr 7</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -23,30 +23,30 @@
   </head>
   <body>
     <header class="boxfirst">
-      <div class="container container-first">
-        <a href="index.html" class="brandname"><span class="pieceofbrand">Web</span>Studio</a>
+      <div class="container boxfirst_container">
+        <a href="index.html" class="brandname boxfirst_brandname"><span class="brandname_pieceofbrand">Web</span>Studio</a>
         <!--dodaję span żeby kolor Web były inny od Studio-->
         <nav>
           <ul class="list-upper">
             <li>
-              <a href="index.html" class="nav-link currentsite">Agencja</a>
+              <a href="index.html" class="list-upper_link currentsite">Agencja</a>
             </li>
-            <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-            <li><a href="#Kontakt" class="nav-link">Kontakt</a></li>
+            <li><a href="portfolio.html" class="list-upper_link">Portfolio</a></li>
+            <li><a href="#Kontakt" class="list-upper_link">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="contact-links list-upper">
+        <ul class="list-upper boxfirst_contact-links">
           <li>
-            <a class="mail" href="mailto:info@devstudio.com">
-              <svg class="post-img" width="16" height="12">
+            <a class="list-upper_mail" href="mailto:info@devstudio.com">
+              <svg class="list-upper_post-img" width="16" height="12">
                 <use href="./icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="smartphone" href="tel:+48111111111">
-              <svg class="smartphone-img" width="10" height="16">
+            <a class="list-upper_smartphone" href="tel:+48111111111">
+              <svg class="list-upper_smartphone-img" width="10" height="16">
                 <use href="./icons.svg#icon-smartphone"></use>
               </svg>
               +48 111 111 111</a
@@ -59,52 +59,52 @@
     <main>
       <section class="main-section">
         <div class="container">
-          <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button" class="buttonfirst"data-modal-open>Zamów usługe</button>
+          <h1 class="main-section_header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button type="button" class="main-section_button"data-modal-open>Zamów usługe</button>
         </div>
       </section>
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Nasze atuty</h2>
           <ul class="list">
-            <li class="lorem-item">
-              <div class="lorem-background">
-                <svg class="icon-lorem" width="70px" height="70px">
+            <li class="list_lorem-item">
+              <div class="list_lorem-background">
+                <svg class="list_icon-lorem" width="70px" height="70px">
                   <use href="./sprite.svg#icon-atenta"></use>
                 </svg>
               </div>
-              <h3 class="loremheader">LOREM IPSUM</h3>
-              <p class="loremdescrition">
+              <h3 class="list_loremheader">LOREM IPSUM</h3>
+              <p class="list_loremdescrition">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="loremitem"> <div class="lorem-background">
-              <svg class="icon-lorem" width="70px" height="70px">
+            <li class="list_loremitem"> <div class="list_lorem-background">
+              <svg class="list_icon-lorem" width="70px" height="70px">
                 <use href="./sprite.svg#icon-clock"></use>
               </svg></div>
-              <h3 class="loremheader">LOREM IPSUM</h3>
-              <p class="loremdescrition">
+              <h3 class="list_loremheader">LOREM IPSUM</h3>
+              <p class="list_loremdescrition">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="loremitem"><div class="lorem-background">
-              <svg class="icon-lorem" width="70px" height="70px">
+            <li class="list_loremitem"><div class="list_lorem-background">
+              <svg class="list_icon-lorem" width="70px" height="70px">
                 <use href="./sprite.svg#icon-diagram"></use>
               </svg></div>
-              <h3 class="loremheader">LOREM IPSUM</h3>
-              <p class="loremdescrition">
+              <h3 class="list_loremheader">LOREM IPSUM</h3>
+              <p class="list_loremdescrition">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="loremitem"><div class="lorem-background">
-              <svg class="icon-lorem" width="70px" height="70px">
+            <li class="list_loremitem"><div class="list_lorem-background">
+              <svg class="list_icon-lorem" width="70px" height="70px">
                 <use href="./sprite.svg#icon-astronaut"></use>
               </svg></div>
-              <h3 class="loremheader">LOREM IPSUM</h3>
-              <p class="loremdescrition">
+              <h3 class="list_loremheader">LOREM IPSUM</h3>
+              <p class="list_loremdescrition">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada
               </p>
@@ -112,48 +112,48 @@
           </ul>
         </div>
       </section>
-      <section class="section-ourteam section">
+      <section class="section section--ourteam">
         <div class="container">
           <h2 class="secondheader">Czym się zajmujemy</h2>
           <ul class="list">
-            <li class="thirditem">
+            <li class="list_thirditem">
               <img
                 src="images/it-employee-one.jpg"
                 alt="praca na komputerze nr 1"
                 width="370"
                 height="294"
                 
-              /><p class="applications">APLIKACJE KOMPUTEROWE</p>
+              /><p class="list_applications">APLIKACJE KOMPUTEROWE</p>
             </li>
-            <li class="thirditem">
+            <li class="list_thirditem">
               <img
                 src="images/it-emloyee-two.jpg"
                 alt="praca na komputerze nr 2"
                 width="370"
                 height="294"
-              /><p class="applications">APLIKACJE MOBILNE</p>
+              /><p class="list_applications">APLIKACJE MOBILNE</p>
             </li>
-            <li class="thirditem">
+            <li class="list_thirditem">
               <img
                 src="images/it-emloyee-three.jpg"
                 alt="praca na komputerze nr 3"
                 width="370"
                 height="294"
-              /><p class="applications">ROZWIĄZANIA GRAFICZNE</p>
+              /><p class="list_applications">ROZWIĄZANIA GRAFICZNE</p>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="section background-lastsection">
+      <section class="section section--background">
         <div class="container">
           <h2 class="secondheader">Nasz zespół</h2>
           <ul class="list">
-            <li class="emloyee">
+            <li class="list_emloyee">
               <img src="images/john-dee-one.jpg" alt="pracownik nr 1" width="270" height="260" />
-              <div class="employee-description">
-                <h3 class="thirdheader">John Doe</h3>
-                <p class="position">Product Designer</p><ul class="flexclick">
+              <div class="list_employee-description">
+                <h3 class="list_thirdheader">John Doe</h3>
+                <p class="list_position">Product Designer</p><ul class="flexclick">
                 <li><a  href="https://www.instagram.com/" 
                 target="_blank"  class="sociallinks"><svg class="instagramclick">
                   <use href="./sprite.svg#icon-instagram"></use>
@@ -276,9 +276,9 @@
     </main>
 
     <footer class="footer">
-      <div class="container footercontainer">
+      <div class="container footer_container">
         <div class="footerbrandparagraph">
-        <a href="index.html" class="brandnamefooter"><span class="pieceofbrand">Web</span>Studio</a>
+        <a href="index.html" class="brandname brandname_footer"><span class="pieceofbrand">Web</span>Studio</a>
         <address>
           <ul class="footerlist">
             <li>
