@@ -69,35 +69,32 @@ button {
   margin: 0 auto;
   border-bottom: 1px solid #ececec;
 }
-.boxfirst_container {
+.container-first {
   display: flex;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
 }
 .brandname {
-  display: block;
   font-family: 'Raleway';
   font-size: 26px;
   font-weight: 700;
-  letter-spacing: 0.03em;
-}
-.boxfirst_brandname {
   color: var(--secondcolor);
   margin-right: 93px;
+  letter-spacing: 0.03em;
 }
-
-.brandname_pieceofbrand {
+.pieceofbrand {
   color: var(--fourthcolor);
 }
-.list-upper_link {
+.nav-link {
   font-weight: 500;
   text-align: left;
   color: currentColor;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list-upper_link:hover,
-.list-upper_link:focus {
+
+.nav-link:hover,
+.nav-link:focus {
   color: var(--fourthcolor);
 }
 .currentsite {
@@ -131,39 +128,41 @@ button {
   gap: 46px;
   letter-spacing: 0.02em;
 }
-.list-upper_mail,
-.list-upper_smartphone {
+.post-img {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.mail:hover,
+.mail:focus {
+  color: var(--fourthcolor);
+}
+
+.smartphone-img {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.smartphone:hover,
+.smartphone:focus {
+  color: var(--fourthcolor);
+}
+
+.mail,
+.smartphone {
   display: flex;
   align-items: center;
+
   color: currentColor;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list-upper_post-img {
-  margin-right: 10px;
-  fill: currentColor;
-}
 
-.list-upper_mail:hover,
-.list-upper_mail:focus {
-  color: var(--fourthcolor);
-}
-
-.list-upper_smartphone-img {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.list-upper_smartphone:hover,
-.list-upper_smartphone:focus {
-  color: var(--fourthcolor);
-}
-
-.boxfirst_contact-links {
+.contact-links {
   color: var(--thirdcolor);
   margin-left: 350px;
   gap: 30px;
 }
-.boxfirst_contact-links a {
+.contact-links a {
   font-weight: 500;
   color: currentColor;
   letter-spacing: 0.02em;
@@ -182,7 +181,7 @@ button {
   height: 600px;
   margin: 0 auto;
 }
-.main-section_header {
+.main-header {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -192,7 +191,7 @@ button {
   margin-bottom: 30px;
   width: 696px;
 }
-.main-section_button {
+.buttonfirst {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
@@ -210,10 +209,10 @@ button {
   gap: 30px;
 }
 
-.list_loremitem {
+.loremitem {
   flex-basis: calc((100%- 90px) / 4);
 }
-.list_lorem-background {
+.lorem-background {
   display: flex;
   width: 270px;
   height: 120px;
@@ -224,7 +223,7 @@ button {
   margin-bottom: 30px;
 }
 
-.section--ourteam {
+.section-ourteam {
   padding-top: 0;
 }
 
@@ -241,14 +240,14 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.list_loremheader {
+.loremheader {
   letter-spacing: 0.03em;
   font-weight: 700;
   color: var(--brandcolor);
   margin-bottom: 10px;
   font-size: 14px;
 }
-.list_loremdescrition {
+.loremdescrition {
   line-height: 1.71;
   text-align: left;
   color: var(--thirdcolor);
@@ -261,13 +260,13 @@ button {
   color: var(--brandcolor);
   margin-bottom: 50px;
 }
-.section--background {
+.background-lastsection {
   background-color: var(--ninthcolor);
 }
-.list_thirditem {
+.thirditem {
   position: relative;
 }
-.list_applications {
+.applications {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -282,14 +281,14 @@ button {
   position: absolute;
   bottom: 0px;
 }
-.list_emloyee {
+.emloyee {
   border-radius: [object Object]px;
   background-color: var(--fifhtcolor);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.list_thirdheader {
+.thirdheader {
   letter-spacing: 0.03em;
   font-size: 16px;
   font-weight: 500;
@@ -297,11 +296,11 @@ button {
   color: var(--brandcolor);
   margin-bottom: 10px;
 }
-.list_employee-description {
+.employee-description {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.list_position {
+.position {
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -388,10 +387,16 @@ button {
   margin-bottom: 9px;
 }
 
-.brandname_footer {
+.brandnamefooter {
+  display: block;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
   color: var(--fifhtcolor);
   margin-bottom: 20px;
   margin-right: 171px;
+  letter-spacing: 0.03em;
 }
 .localization {
   margin-right: 70px;
@@ -418,7 +423,7 @@ button {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.footer_container {
+.footercontainer {
   display: flex;
   align-items: baseline;
 }
