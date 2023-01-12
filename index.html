@@ -22,31 +22,31 @@
     <link href="./CSS/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="boxfirst">
-      <div class="container container-first">
-        <a href="index.html" class="brandname"><span class="pieceofbrand">Web</span>Studio</a>
+    <header class="header">
+      <div class="container header__container">
+        <a href="index.html" class="brandname header__brandname"><span class="pieceofbrand header__pieceofbrand">Web</span>Studio</a>
         <!--dodaję span żeby kolor Web były inny od Studio-->
-        <nav>
-          <ul class="list-upper">
+        <nav class="nav header__nav">
+          <ul class="list nav__list">
             <li>
-              <a href="index.html" class="nav-link currentsite">Agencja</a>
+              <a href="index.html" class="nav__link currentsite">Agencja</a>
             </li>
-            <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-            <li><a href="#Kontakt" class="nav-link">Kontakt</a></li>
+            <li><a href="portfolio.html" class="nav__link">Portfolio</a></li>
+            <li><a href="#Kontakt" class="nav__link">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="contact-links list-upper">
-          <li>
-            <a class="mail" href="mailto:info@devstudio.com">
-              <svg class="post-img" width="16" height="12">
+        <ul class="contact header__contact list">
+          <li class="contact__item">
+            <a class="contact__link" href="mailto:info@devstudio.com">
+              <svg class="contact__img" width="16" height="12">
                 <use href="./icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="smartphone" href="tel:+48111111111">
-              <svg class="smartphone-img" width="10" height="16">
+          <li class="contact__item">
+            <a class="contact__link" href="tel:+48111111111">
+              <svg class="contact__img" width="10" height="16">
                 <use href="./icons.svg#icon-smartphone"></use>
               </svg>
               +48 111 111 111</a
@@ -58,53 +58,53 @@
 
     <main>
       <section class="main-section">
-        <div class="container">
-          <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button" class="buttonfirst"data-modal-open>Zamów usługe</button>
+        <div class="container main-section__container">
+          <h1 class="main-section__header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button type="button" class="main-section__button"data-modal-open>Zamów usługe</button>
         </div>
       </section>
-      <section class="section">
+      <section class="section loremsection">
         <div class="container">
-          <h2 class="visually-hidden">Nasze atuty</h2>
-          <ul class="list">
-            <li class="lorem-item">
-              <div class="lorem-background">
-                <svg class="icon-lorem" width="70px" height="70px">
+          <h2 class="visually-hidden loremsection__visually-hidden">Nasze atuty</h2>
+          <ul class="list loremsection__list">
+            <li class="loremsection__item">
+              <div class="loremsection__background">
+                <svg class="loremsection__icon" width="70px" height="70px">
                   <use href="./sprite.svg#icon-atenta"></use>
                 </svg>
               </div>
-              <h3 class="loremheader">LOREM IPSUM</h3>
-              <p class="loremdescrition">
+              <h3 class="loremsection__header">LOREM IPSUM</h3>
+              <p class="loremsection__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="loremitem"> <div class="lorem-background">
-              <svg class="icon-lorem" width="70px" height="70px">
+            <li class="loremsection__item"> <div class="loremsection__background">
+              <svg class="loremsection__icon" width="70px" height="70px">
                 <use href="./sprite.svg#icon-clock"></use>
               </svg></div>
-              <h3 class="loremheader">LOREM IPSUM</h3>
-              <p class="loremdescrition">
+              <h3 class="loremsection__header">LOREM IPSUM</h3>
+              <p class="loremsection__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="loremitem"><div class="lorem-background">
-              <svg class="icon-lorem" width="70px" height="70px">
+            <li class="loremsection__item"><div class="loremsection__background">
+              <svg class="loremsection__icon" width="70px" height="70px">
                 <use href="./sprite.svg#icon-diagram"></use>
               </svg></div>
-              <h3 class="loremheader">LOREM IPSUM</h3>
-              <p class="loremdescrition">
+              <h3 class="loremsection__header">LOREM IPSUM</h3>
+              <p class="loremsection__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="loremitem"><div class="lorem-background">
-              <svg class="icon-lorem" width="70px" height="70px">
+            <li class="loremsection__item"><div class="loremsection__background">
+              <svg class= "loremsection__icon" width="70px" height="70px">
                 <use href="./sprite.svg#icon-astronaut"></use>
               </svg></div>
-              <h3 class="loremheader">LOREM IPSUM</h3>
-              <p class="loremdescrition">
+              <h3 class="loremsection__header">LOREM IPSUM</h3>
+              <p class="loremsection__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada
               </p>
@@ -112,43 +112,43 @@
           </ul>
         </div>
       </section>
-      <section class="section-ourteam section">
-        <div class="container">
-          <h2 class="secondheader">Czym się zajmujemy</h2>
-          <ul class="list">
-            <li class="thirditem">
-              <img
+      <section class="ourteam section">
+        <div class="container ourteam__container">
+          <h2 class="secondheader ourteam__header">Czym się zajmujemy</h2>
+          <ul class="list ourteam__list">
+            <li class="outeam__item">
+              <img class="outeam__icon"
                 src="images/it-employee-one.jpg"
                 alt="praca na komputerze nr 1"
                 width="370"
                 height="294"
                 
-              /><p class="applications">APLIKACJE KOMPUTEROWE</p>
+              /><p class="ourteam__applications">APLIKACJE KOMPUTEROWE</p>
             </li>
-            <li class="thirditem">
-              <img
+            <li class="outeam__item">
+              <img class="outeam__icon"
                 src="images/it-emloyee-two.jpg"
                 alt="praca na komputerze nr 2"
                 width="370"
                 height="294"
-              /><p class="applications">APLIKACJE MOBILNE</p>
+              /><p class="ourteam__applications">APLIKACJE MOBILNE</p>
             </li>
-            <li class="thirditem">
-              <img
+            <li class="outeam__item">
+              <img class="outeam__icon"
                 src="images/it-emloyee-three.jpg"
                 alt="praca na komputerze nr 3"
                 width="370"
                 height="294"
-              /><p class="applications">ROZWIĄZANIA GRAFICZNE</p>
+              /><p class="ourteam__applications">ROZWIĄZANIA GRAFICZNE</p>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="section background-lastsection">
-        <div class="container">
-          <h2 class="secondheader">Nasz zespół</h2>
-          <ul class="list">
+      <section class="lastsection lastsection--background section ">
+        <div class="container lastsection__container">
+          <h2 class="secondheader lastsection__header">Nasz zespół</h2>
+          <ul class="list lastsection__list">
             <li class="emloyee">
               <img src="images/john-dee-one.jpg" alt="pracownik nr 1" width="270" height="260" />
               <div class="employee-description">
@@ -278,7 +278,7 @@
     <footer class="footer">
       <div class="container footercontainer">
         <div class="footerbrandparagraph">
-        <a href="index.html" class="brandnamefooter"><span class="pieceofbrand">Web</span>Studio</a>
+        <a href="index.html" class="brandname footer__brandname"><span class="pieceofbrand footer__pieceofbrand">Web</span>Studio</a>
         <address>
           <ul class="footerlist">
             <li>
