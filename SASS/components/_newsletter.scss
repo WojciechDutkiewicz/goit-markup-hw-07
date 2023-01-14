@@ -1,0 +1,60 @@
+.newsletterform {
+  margin-left: 78px;
+  &__signup {
+    display: block;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: $fifhtcolor;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  &__flex {
+    display: flex;
+  }
+  &__email {
+    width: 358px;
+    padding: 15px 16px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: #2f303a;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 12px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      drop-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__email:hover,
+  &__email:focus {
+    outline: none;
+    border-color: $fourthcolor;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  }
+
+  &__button {
+    width: 201px;
+    height: 50px;
+    padding-left: 42px;
+    padding-right: 28px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    fill: $fifhtcolor;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__button:hover,
+  &__button:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  &__arrow {
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+  }
+}
