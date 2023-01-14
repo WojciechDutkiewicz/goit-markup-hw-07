@@ -1,6 +1,5 @@
 .form {
   &__paragraph {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -10,7 +9,6 @@
     margin-bottom: 12px;
   }
   &__namelabel {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -85,7 +83,6 @@
     fill: $fourthcolor;
   }
   &__email-account-label {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -121,7 +118,6 @@
     fill: $fourthcolor;
   }
   &__comment-label {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -131,13 +127,11 @@
     margin-bottom: 4px;
   }
   &__comment:placeholder-shown {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-
     color: rgba(117, 117, 117, 0.5);
   }
   &__comment {
@@ -157,7 +151,6 @@
     color: $secondcolor;
   }
   &__politcslabel {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -235,7 +228,7 @@
     position: absolute;
     top: 8px;
     left: 490px;
-    background: #ffffff;
+    background: $fifhtcolor;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
   }
