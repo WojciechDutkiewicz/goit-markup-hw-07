@@ -1,0 +1,21 @@
+.contact {
+  color: $thirdcolor;
+  margin-left: 350px;
+  &__img {
+    margin-right: 10px;
+    fill: currentColor;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: currentColor;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__link:hover,
+  &__link:focus {
+    color: $fourthcolor;
+  }
+}

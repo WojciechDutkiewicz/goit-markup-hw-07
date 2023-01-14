@@ -1,0 +1,37 @@
+.main-section {
+  background-color: $sixthcolor;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4) 50%, rgba(47, 48, 58, 0.4) 50%),
+    url(../images/backgroundimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  &__header {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--fifhtcolor);
+    margin-bottom: 30px;
+    width: 696px;
+  }
+  &__button {
+    text-align: center;
+    padding: 10px 41px;
+    margin: 0 auto;
+  }
+  &__header {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: $fifhtcolor;
+    margin-bottom: 30px;
+    width: 696px;
+  }
+}

@@ -1,0 +1,27 @@
+.loremsection {
+  &__item {
+    flex-basis: calc((100%- 90px) / 4);
+  }
+  &__background {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  &__description {
+    line-height: 1.71;
+    text-align: left;
+    color: $thirdcolor;
+  }
+  &__header {
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    color: $brandcolor;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}
