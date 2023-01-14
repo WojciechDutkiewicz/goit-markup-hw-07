@@ -1,0 +1,13 @@
+.currentsiteportfolio {
+  color: $fourthcolor;
+  position: relative;
+  &::after {
+    content: '';
+    border-bottom: 4px solid $fourthcolor;
+    border-radius: 2px;
+    position: absolute;
+    width: 57px;
+    top: 46px;
+    left: 0;
+  }
+}
