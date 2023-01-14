@@ -4,18 +4,6 @@
   padding: 0;
 }
 
-:root {
-  --brandcolor: #212121;
-  --secondcolor: #000000;
-  --thirdcolor: #757575;
-  --fourthcolor: #2196f3;
-  --fifhtcolor: #ffffff;
-  --sixthcolor: #2f303a;
-  --seventhcolor: #e5e5e5;
-  --eighthcolor: rgba (255, 255, 255, 0.6);
-  --ninthcolor: #f5f4fa;
-  --tenthcolor: #eeeeee;
-}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
