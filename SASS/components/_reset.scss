@@ -3,9 +3,8 @@
   margin: 0;
   padding: 0;
 }
-
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: $generalfontfamily;
   font-size: 14px;
   color: $brandcolor;
   background: $fifhtcolor;
