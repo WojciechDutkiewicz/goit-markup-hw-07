@@ -1,0 +1,26 @@
+.footer {
+  background-color: $sixthcolor;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  &__brandname {
+    text-align: left;
+    color: $fifhtcolor;
+    margin-bottom: 20px;
+    margin-right: 171px;
+  }
+  &__joinus-slogan {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--fifhtcolor);
+    margin-bottom: 20px;
+  }
+  &__container {
+    display: flex;
+    align-items: baseline;
+  }
+}

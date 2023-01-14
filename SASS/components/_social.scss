@@ -1,0 +1,37 @@
+.social {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  &__link {
+    display: flex;
+    color: #afb1b8;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: $fifhtcolor;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__link:hover,
+  &__link:focus {
+    color: $fifhtcolor;
+    background-color: $fourthcolor;
+  }
+  &__instagram,
+  &__linkedin,
+  &__facebook,
+  &__twitter {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+  }
+  &--footer {
+    fill: $fifhtcolor;
+  }
+  &__link-click {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
